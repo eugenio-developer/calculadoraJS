@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-container">
+            <label for="valor1">Valor1:</label>
+            
+            <input type="number" name="valor1" id="valor1">
+            <br>
+            <label for="valor1">Valor2:</label>
+            
+            <input type="number" name="valor2" id="valor2">
+        </div>
+        <div class="resultado-container">
+
+            <p id="resultado"></p>
+        </div>
+
+        <div class="container-button">
+            <div class="button"> 
+
+                <button onclick="calculadoraSoma()">
+                    +
+                </button>
+            </div>
+            <div class="button">
+
+
+                <button onclick="calculadoraDivisao()">
+                    /
+                </button>
+            </div>
+            <div class="button">
+
+                <button onclick="calculadoraSubtracao()">
+                    -
+                </button>
+            </div>
+            <div class="button">
+
+
+
+                <button onclick="calculadoraMultiplicacao()">
+                    *
+                </button>
+            </div>
+            <div class="button">
+
+
+
+                <button onclick="calculaPotencia()">
+                    ^
+                </button>
+            </div>
+
+            <div class="button">
+
+
+
+                <button onclick="calculaRadiciacao()">
+                    Raiz
+                </button>
+            </div>
+
+            <div class="button">
+
+
+
+                <button onclick="calculadoraFatorial()">
+                    !
+                </button>
+            </div>
+            <div class="button">
+
+
+
+                <button onclick="calculadoraBinario()">
+                    2
+                </button>
+            </div>
+            <div class="button">
+
+
+
+                <button onclick="calculadoraOctal()">
+                    8
+                </button>
+            </div>
+            <div class="button">
+
+
+
+                <button onclick="calculadoraHexal()">
+                    16
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
